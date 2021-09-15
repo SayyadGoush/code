@@ -1,0 +1,7 @@
+{
+    "sap.app": {
+        "id": "loky"
+    },
+    "sap.ui": {},
+    "sap.ui5": {}
+}   

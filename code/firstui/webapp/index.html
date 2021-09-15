@@ -1,0 +1,34 @@
+<html>
+    <head>
+
+        <script src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+                data-sap-ui-libs="sap.m,sap.ui.layout"
+                data-sap-ui-theme="sap_bluecrystal"
+                data-sap-ui-resourceroots='{
+                    "loky":"./"
+                }'>
+             
+        </script>
+
+        <script>
+
+            // var oView = new sap.ui.view({
+            //     viewName: "loky.view.Main",
+            //     type: "JS"
+            // });
+
+            // oView.placeAt("content");
+
+            var oView = new sap.ui.view({
+                viewName: "loky.view.MyXML",
+                type: "XML"
+            });
+            oView.placeAt("content");
+
+        </script>
+
+    </head>
+    <body class="sapUiBody">
+        <div id="content"></div>
+    </body>
+</html>
