@@ -6,7 +6,8 @@
                 data-sap-ui-theme="sap_bluecrystal"
                 data-sap-ui-resourceroots='{
                     "loky":"./"
-                }'>
+                }'
+                data-sap-ui-bindingSyntax="complex">
              
         </script>
 
@@ -19,7 +20,7 @@
 
             // oView.placeAt("content");
 
-            var oView = new sap.ui.view({
+            var oView = new sap.ui.view("myView",{
                 viewName: "loky.view.MyXML",
                 type: "XML"
             });
